@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration
+  PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-config.dtd">
+ <configuration>
+ 	<typeAliases>
+ 		<typeAlias type="kr.co.kosmo.mvc.dto.AdminInfoDTO" alias="adInfo"/>
+ 		<typeAlias type="kr.co.kosmo.mvc.dto.AdminScheduleDTO" alias="adSche"/>
+ 		<typeAlias type="kr.co.kosmo.mvc.dto.StoreProductDTO" alias="strPro"/>
+ 		<typeAlias type="kr.co.kosmo.mvc.dto.TradeListDTO" alias="trdList"/>
+ 		<typeAlias type="kr.co.kosmo.mvc.dto.RecipeMemberDTO" alias="rpMem"/>
+ 		<typeAlias type="kr.co.kosmo.mvc.dto.PageVO" alias="pvo" />
+ 		<typeAlias type="kr.co.kosmo.mvc.dto.ClassListDTO" alias="cList" />
+ 		<typeAlias type="kr.co.kosmo.mvc.dto.LoginLogDTO" alias="loginLog" />
+ 		<typeAlias type="kr.co.kosmo.mvc.dto.ChiefApplyDTO" alias="cAply"/>
+ 		<typeAlias type="kr.co.kosmo.mvc.dto.StoreOrderDTO" alias="strOrd"/>
+ 	</typeAliases>
+ </configuration>
